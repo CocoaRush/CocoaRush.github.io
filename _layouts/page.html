@@ -100,6 +100,7 @@ layout: default
 
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
+                    <br>
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
@@ -109,6 +110,7 @@ layout: default
                         {% endif %}
                         {% if site.sidebar-about-description %}
                             <p>{{site.sidebar-about-description}}</p>
+                            <br>
                         {% endif %}
                         <!-- SNS Link -->
                         <ul class="list-inline">
@@ -192,6 +194,7 @@ layout: default
                 </section>
                 <!-- Friends Blog -->
                 {% if site.friends %}
+                <br>
                 <hr>
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
