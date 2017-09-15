@@ -39,8 +39,12 @@ The Word-Graph interface queries the WordNet lexical database developed by Princ
     
 ### Here are some screenshots:   
 
-![screenshots-1](img/2017-09-15-1.jpg)
-![screenshots-2](img/2017-09-15-2.jpg)
-![screenshots-3](img/2017-09-15-3.jpg)
-![screenshots-4](img/2017-09-15-4.jpg)
-![screenshots-5](img/2017-09-15-5.jpg)
+![screenshots-1](https://github.com/CocoaRush/CocoaRush.github.io/blob/master/img/2017-09-15-1.jpg)
+
+![screenshots-2](https://github.com/CocoaRush/CocoaRush.github.io/blob/master/img/2017-09-15-2.jpg)
+
+![screenshots-3](https://github.com/CocoaRush/CocoaRush.github.io/blob/master/img/2017-09-15-3.jpg)
+
+![screenshots-4](https://github.com/CocoaRush/CocoaRush.github.io/blob/master/img/2017-09-15-4.jpg)
+
+![screenshots-5](https://github.com/CocoaRush/CocoaRush.github.io/blob/master/img/2017-09-15-5.jpg)
