@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      iTunes Connect 构建版本不显示
-subtitle:   App打包上传到 App Store, iTunes Connect 构建版本不显示
-date:       2017-07-24
-author:     BY
+subtitle:   用 Xcode 打包 App 上传到 iTunes Connect，构建版本不显示
+date:       2017-09-20
+author:     Pitt
 header-img: img/post-bg-ios10.jpg
 catalog: true
 tags:
@@ -18,7 +18,7 @@ tags:
 
 ## 解决
 
-从iOS10开始,苹果更加注重对用于隐私的保护,App 里边如果需要访问用户隐私,必须要做描述,所以要在 plist 文件中添加描述。
+从iOS10开始，苹果更加注重对用于隐私的保护，App 里边如果需要访问用户隐私，必须要做描述，所以要在 plist 文件中添加描述。
 
 而这三个基础描述是必须添加的：
 
