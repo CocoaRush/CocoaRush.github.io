@@ -41,10 +41,10 @@ The Word-Graph interface queries the WordNet lexical database developed by Princ
 
 ![screenshots-1](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt3c861mj30yi1pc0vi.jpg)
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt54sjn4j30yi1pcdlb.jpg)
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt54sjn4j30yi1pcdlb.jpg){:height="50%" width="50%"}
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt54gbb1j30yi1pc77n.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt54gbb1j30yi1pc77n.jpg){:height="50%" width="50%"}
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt546zj4j30yi1pcwgv.jpg)
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt546zj4j30yi1pcwgv.jpg){:height="50%" width="50%"}
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1fjkt53uzdrj30yi1pcae0.jpg)
+![](https://ws3.sinaimg.cn/large/006tKfTcly1fjkt53uzdrj30yi1pcae0.jpg){:height="50%" width="50%"}
