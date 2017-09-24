@@ -134,7 +134,7 @@ struct _objc_method method_list[1];
 } _OBJC_$_CATEGORY_INSTANCE_METHODS_MyClass_$_MyAddition __attribute__ ((used, section ("__DATA,__objc_const"))) = {
 sizeof(_objc_method),
 1,
-{{(struct objc_selector *)"printName", "v16@0:8", (void *)_I_MyClass_MyAddition_printName}}
+{(struct objc_selector *)"printName", "v16@0:8", (void *)_I_MyClass_MyAddition_printName}
 };
 
 static struct /*_prop_list_t*/ {
@@ -144,7 +144,7 @@ struct _prop_t prop_list[1];
 } _OBJC_$_PROP_LIST_MyClass_$_MyAddition __attribute__ ((used, section ("__DATA,__objc_const"))) = {
 sizeof(_prop_t),
 1,
-{{"name","T@\"NSString\",C,N"}}
+{"name","T@\"NSString\",C,N"}
 };
 
 extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_MyClass;
