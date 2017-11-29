@@ -97,16 +97,22 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Thinking Card",
+        title: "ThinkingCard",
         href: "http://thinkingcard.com"
     },{
         title: "简书·Pitt",
         href: "http://www.jianshu.com/u/4cd296ebca2c"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "VennC",
+        href: "http://vennc.cc"
     },{
-        title: "Apple Developer",
+        title: "iTunesConnect",
+        href: "https://itunesconnect.apple.com"
+    },{
+        title: "AppleDeveloper",
         href: "https://developer.apple.com/"
+    },{
+        title: "Privacy",
+        href: "http://thinkingcard.com/privacy.html"
     }
 ]
