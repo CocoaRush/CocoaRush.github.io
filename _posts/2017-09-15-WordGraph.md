@@ -1,19 +1,18 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:      The WordGraph App               # 标题 
-subtitle:   the very first introduction of WordGraph app #副标题
+subtitle:   the very first introduction of my WordGraph app #副标题
 date:       2017-09-15              # 时间
 author:     Pitt                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
-    - app
-    - ios
+    - App
 ---
 
 ## Hello, there
 
-I present you the powerful iOS app **WordGraph**!
+I present you the powerful iOS app **WordGraph**! You can download it from [App Store](https://itunes.apple.com/cn/app/%E8%AF%8D%E8%B0%B1/id1282520024?ls=1&mt=8)
 
    
 ### What is Word-Graph
@@ -39,12 +38,12 @@ The Word-Graph interface queries the WordNet lexical database developed by Princ
     
 ### Here are some screenshots:   
 
-![screenshots-1](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt3c861mj30yi1pc0vi.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt3c861mj30yi1pc0vi.jpg){:height="60%" width="60%"}
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt54sjn4j30yi1pcdlb.jpg){:height="50%" width="50%"}
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt54sjn4j30yi1pcdlb.jpg){:height="60%" width="60%"}
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt54gbb1j30yi1pc77n.jpg){:height="50%" width="50%"}
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fjkt54gbb1j30yi1pc77n.jpg){:height="60%" width="60%"}
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt546zj4j30yi1pcwgv.jpg){:height="50%" width="50%"}
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fjkt546zj4j30yi1pcwgv.jpg){:height="60%" width="60%"}
 
-![](https://ws3.sinaimg.cn/large/006tKfTcly1fjkt53uzdrj30yi1pcae0.jpg){:height="50%" width="50%"}
+![](https://ws3.sinaimg.cn/large/006tKfTcly1fjkt53uzdrj30yi1pcae0.jpg){:height="60%" width="60%"}
