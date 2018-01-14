@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      iTunes Connect 构建版本不显示
-subtitle:   用 Xcode 打包 App 上传到 iTunes Connect，构建版本不显示
+title:      iTunesConnect 构建版本不显示
+subtitle:   Xcode 打包 App 上传到 iTunesConnect，构建版本不显示
 date:       2017-09-20
 author:     Pitt
-header-img: img/post-bg-ios10.jpg
+header-img: img/post-bg-10.jpg
 catalog: true
 tags:
     - 2017.09

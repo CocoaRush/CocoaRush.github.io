@@ -4,7 +4,7 @@ title:      The WordGraph App
 subtitle:   the very first introduction of my WordGraph app 
 date:       2017-09-15             
 author:     Pitt                      
-header-img: img/post-bg-2015.jpg    
+header-img: img/post-bg-15.jpg    
 catalog: true                       
 tags:                              
     - 2017.09
