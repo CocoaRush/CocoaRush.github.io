@@ -9,6 +9,7 @@ catalog: true
 tags:
     - 2018.03
     - Tips
+    - Fixed
 ---
 
 ## 清理 Xcode 占用的磁盘空间
@@ -48,6 +49,41 @@ Go to `~/Library/Application Support/iPhone Simulator/`
 不可恢复；将删除旧的 DocSets文档
 
 Go to `~/Library/Developer/Shared/Documentation/DocSets`
+
+
+
+## Xcode-beta
+
+今天手贱用 Xcode-beta 打开了之前 Xcode8 的一个项目，而且升级了 Xcode-beta 推荐的各种自动优化，差一点还自动转化成 Swift4 了。接下来各种问题就来了，好多第三方的 Framework 都还不支持。所以立马想着用原来的 Xcode8 继续，但一编译就各种报错。
+
+
+#### 第三方 Framework 不支持
+
+解决方案：（在 Preferences -> Locations 里面)
+
+切换  Command Line Tools 到 Xcode 9.0，神奇。
+
+
+#### Simulator 消失
+
+另一个问题，安装 Xcode-beta 后，Xcode 8 里面的 Simulator 立马就不见了。
+
+解决方案：
+
+Open Developer Tools -> Simulator 之后重启 Xcode 就找回来了。注意：两个 Xcode 不可以同时使用 Simulator。
+
+
+
+## Xcode Warning
+
+#### no rule to process ...
+
+`warning: no rule to process file 'xxx' of type xxx for architecture xxx`
+
+解决方案：
+
+文件 xxx 出现在了Xcode中的：TARGES → Build Phases → Compile Sources中，移除即可解决问题。
+
 
 
 **End**

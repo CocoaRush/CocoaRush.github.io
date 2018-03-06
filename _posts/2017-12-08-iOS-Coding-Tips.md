@@ -10,6 +10,7 @@ tags:
     - 2017.12
     - iOS
     - Tips
+    - Fixed
 ---
 
 
@@ -41,5 +42,18 @@ CATransaction.setDisableActions(true)
 layer.frame = colorBar.bounds
 CATransaction.commit()
 ```
+
+
+
+## WKWebView
+
+#### 本地资源
+WKWebView 加载本地资源需要给一个授权访问的文件夹：   
+`[_webView loadFileURL:url allowingReadAccessToURL:dir];`   
+如果超出这个文件范围外，就不能访问了，这会导致有些本地资源读取到不到，比如创建一个图片缩略图，放到临时文件夹里面了，这时再用WKWebView显示这张缩略图时，就显示不出来了。
+
+注意：本地图片的路径得加上前缀 `file://`，完整的路径为：
+`file:///var/mobile/Containers/Data/Application/8089B76A-8246-43FD-8A26-F24BB97B847A/Documents/ThumbImages/IMG_0027.jpg`
+
 
 **End**
