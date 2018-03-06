@@ -206,3 +206,6 @@ Apriori算法学习数据的关联规则(association rules)，适用于包含大
 
 
 **End**
+
+https://zhuanlan.zhihu.com/p/25140821
+http://blog.csdn.net/u011067360/article/details/24368085

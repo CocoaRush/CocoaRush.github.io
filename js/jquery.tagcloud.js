@@ -26,6 +26,44 @@
       if (opts.color) {
         // change color to background-color
         $(this).css({"backgroundColor": tagColor(opts.color, colorIncr, weighting)});
+        $(this).css({"border-radius": "4pt"});
+      }
+    });
+  };
+
+  $.fn.archivecloud = function(options) {
+    var opts = $.extend({}, $.fn.tagcloud.defaults, options);
+    tagWeights = this.map(function(){
+      return $(this).attr("rel");
+    });
+    tagWeights = jQuery.makeArray(tagWeights).sort(compareWeights);
+    lowest = tagWeights[0];
+    highest = tagWeights.pop();
+    range = highest - lowest;
+    if(range === 0) {range = 1;}
+    // Sizes
+    if (opts.size) {
+      fontIncr = (opts.size.end - opts.size.start)/range;
+    }
+    // Colors
+    if (opts.color) {
+      colorIncr = colorIncrement (opts.color, range);
+    }
+    return this.each(function() {
+      weighting = $(this).attr("rel") - lowest;
+      if (opts.size) {
+        $(this).css({"font-size": opts.size.start + (weighting * fontIncr) + opts.size.unit});
+      }
+      if (opts.color) {
+        // change color to background-color  0085a1
+        //$(this).css({"backgroundColor": tagColor(opts.color, colorIncr, weighting)});
+        //$(this).css({"backgroundColor": "#4495A6"});
+        $(this).css({"backgroundColor": "#ffffff"});
+        $(this).css({"color": "#0085a1"});
+        $(this).css({"font-size": "16px"});
+        //$(this).css({"text-decoration": "underline"});
+        $(this).css({"border-radius": "4px"});
+        $(this).css({"line-height": "28px"});
       }
     });
   };

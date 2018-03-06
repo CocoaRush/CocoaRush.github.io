@@ -9,8 +9,6 @@ catalog: true
 tags:
     - iOS
     - Xcode
-    - Cocopods
-    - ruby
 ---
 
 # 前言

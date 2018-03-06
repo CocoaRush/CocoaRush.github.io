@@ -8,8 +8,6 @@ header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - iOS
-    - RunLoop
-    - Obj-C
 ---
 
 # 深入理解RunLoop

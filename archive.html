@@ -24,7 +24,7 @@ header-img: "img/post-bg-13.jpg"
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
+			<div id='archive_cloud' class="tags">
 
                 <!-- Get the tag name for every tag on the site and set them to the `site_tags` variable. -->
                 <!-- {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} -->
@@ -35,11 +35,13 @@ header-img: "img/post-bg-13.jpg"
 				{% for tag in site.tags reversed %}
                     {% capture tag_name %}{{ tag[0] }}{% endcapture %}
                     {% if tag_name contains '20' %}
-				    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">【{{ tag[0] }}】</a>
+				    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">【 {{ tag[0] }} 】({{ tag[1].size }})</a>
                     {% endif %}
 				{% endfor %}
 			</div>
 
+            <br> 
+            <br> 
 
             <!--<blockquote class="tag-comments">
                 按时期倒叙排列的文章存档：

@@ -26,7 +26,11 @@ header-img: "img/tag-bg.jpg"
             <!-- 标签云 -->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+                    {% capture tag_name %}{{ tag[0] }}{% endcapture %}
+                    {% if tag_name contains '20' %}
+                    {% else %}
+                    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"> {{ tag[0] }} ({{ tag[1].size }}) </a>
+                    {% endif %}
 				{% endfor %}
 			</div>
 
@@ -36,8 +40,13 @@ header-img: "img/tag-bg.jpg"
                     <li>外国产品、术语优先使用英文</li>
             </blockquote>
 
+            <br>
+
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
+            {% capture tag_name %}{{ tag[0] }}{% endcapture %}
+            {% if tag_name contains '20' %}
+            {% else %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">============[ {{ tag[0] }} ]============</span>
@@ -64,8 +73,8 @@ header-img: "img/tag-bg.jpg"
 				<hr>
 				{% endfor %}
 			</div>
+            {% endif %}
 			{% endfor %}
-
 		</div>
 	</div>
 </div>

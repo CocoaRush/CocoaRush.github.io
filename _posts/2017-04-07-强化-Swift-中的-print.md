@@ -10,7 +10,6 @@ tags:
     - iOS
     - Swift
     - Xcode
-    - Debug
 ---
 
 在 Swift 中，最简单的输出方法就是使用 `print()`，在我们关心的地方输出字符串和值。
