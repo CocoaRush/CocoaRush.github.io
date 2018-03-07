@@ -162,10 +162,14 @@ layout: default
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
+                            {% capture tag_name %}{{ tag[0] }}{% endcapture %}
+                            {% if tag_name contains '20' %}
+                            {% else %}
                             {% if tag[1].size > site.featured-condition-size %}
                 				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
+                            {% endif %}
                             {% endif %}
         				{% endfor %}
         			</div>
